@@ -16,22 +16,24 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-<!-- HEADER DO PROJETO -->
+<!-- HEADER CENTRALIZADO -->
 
 <div align="center">
-<h1 align="center">🚀 Portfólio Web | Henrique Dominguez</h1>
+<h1>🚀 Portfólio Web | Henrique Dominguez</h1>
 
-<p align="center">
+<p>
 Portfólio interativo e responsivo desenvolvido com React, focado em alta performance e código limpo.
-<br />
+</p>
+
+<p>
 <a href="https://www.google.com/search?q=https://github.com/Henrique87645/portfolio-henrique/issues">Reportar Bug</a>
 ·
 <a href="https://www.google.com/search?q=https://github.com/Henrique87645/portfolio-henrique/issues">Solicitar Feature</a>
 </p>
 
-<!-- BADGES -->
+<!-- BADGES (Links Oficiais e Limpos) -->
 
-<p align="center">
+<p>
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/React-20232A%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D61DAFB" alt="React" />
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Vite-646CFF%3Fstyle%3Dfor-the-badge%26logo%3Dvite%26logoColor%3Dwhite" alt="Vite" />
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind" />
@@ -39,7 +41,9 @@ Portfólio interativo e responsivo desenvolvido com React, focado em alta perfor
 </p>
 </div>
 
-<!-- TABELA DE CONTEÚDOS -->
+<br />
+
+<!-- ÍNDICE -->
 
 <details>
 <summary><strong>Conteúdo</strong> (Clique para expandir)</summary>
@@ -138,20 +142,20 @@ Solução: Atualize para a versão LTS mais recente no site nodejs.org.
 2. Erro: PostCSS plugin ... tailwindcss/postcss
 
 Causa: Conflito de versão (Tailwind v4 vs v3).
-Solução: Force a instalação da versão estável v3:
+Solução: Force a instalação da versão estável v3 rodando:
 
 npm install -D tailwindcss@3.4.16 postcss autoprefixer
 
 
 3. Erro: @apply should not be used with the 'group' utility
 
-Causa: O Tailwind não permite usar group dentro do CSS puro.
+Causa: O Tailwind não permite usar group dentro do CSS puro (@apply).
 Solução: Mova a classe group para o JSX (ex: className="card-project group").
 
 4. Erro: Failed to resolve import ...
 
 Causa: Erro de digitação (ex: portifolio.js vs portfolio.js).
-Solução: Verifique se o nome do arquivo na pasta bate exatamente com o import.
+Solução: Verifique se o nome do arquivo na pasta bate exatamente com o import no código.
 
 📂 Estrutura do Projeto
 
@@ -181,18 +185,10 @@ export const projects = [
 
 
 📬 Contato
+<div align="center">Henrique Dominguez - Desenvolvedor Web Júnior</div>
 
-<div align="center">
-
-Henrique Dominguez - Desenvolvedor Web Júnior
-
-</div>
-
-<p align="center">
-Desenvolvido com 💙 por Henrique Dominguez
-</p>
-📬 Contato
-
-Henrique Dominguez Desenvolvedor Web Júnior
+<br />
 
 <p align="center">Desenvolvido com 💙 por Henrique Dominguez</p>
+Henrique Dominguez Desenvolvedor Web Júnior
+
